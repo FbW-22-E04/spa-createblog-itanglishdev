@@ -34,7 +34,7 @@ const submitHandler = (event) => {
     <div>
       <h1>Fill up to create a form</h1>
       <form  onSubmit={submitHandler}>
-        <label></label>
+        <label/>
         <input 
         placeholder="Username"
         type="text"
@@ -43,7 +43,7 @@ const submitHandler = (event) => {
         value={userName}
         name='userName'
          />
-        <label></label>
+        <label/>
         <input 
         placeholder="Title"
         type="text"
@@ -52,7 +52,7 @@ const submitHandler = (event) => {
         value={title}
         name='title'
          />
-        <label></label>
+        <label/>
         <input 
         placeholder="Content"
         type="text"
