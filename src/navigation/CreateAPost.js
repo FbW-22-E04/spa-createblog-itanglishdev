@@ -26,7 +26,9 @@ const changeHandler = (event) => {
   console.log({articles});
 
 const submitHandler = (event) => {
-  setAllPosts([...allPosts,event.target.value])
+  event.preventDefault()
+  // const {userName,title,content} = event.target
+  setAllPosts([event.target])
   }
   console.log(allPosts, 'all POSTS')
 
